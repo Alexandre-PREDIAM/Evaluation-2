@@ -6,11 +6,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css" type="text/css">
   <link rel="shortcut icon" href="./media/logo-sc.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <title>Jeu de dé</title>
 </head>
 <body>
+  <main>
+    <button class="btn-new-game">
+      <i class="fa-solid fa-plus" style="color: red; position: relative; right: 3px;" class="icon-plus"></i>
+      NEW GAME
+    </button>
+
+    <div class="container-dé">
+      <div class="cube">
+        <div class="face front"></div>
+        <div class="face back"></div>
+        <div class="face top"></div>
+        <div class="face bottom"></div>
+        <div class="face right"></div>
+        <div class="face left"></div>
+      </div>
+    </div>
+
+    <button class="btn-roll-dice">
+      <i class="fa-solid fa-arrow-rotate-right" style="color: red; position: relative; right: 3px;" class="icon-arrow-turn"></i>
+      ROLL DICE
+    </button>
+
+    <button class="btn-hold">
+      <i class="fa-solid fa-arrow-down" style="color: red; position: relative; right: 3px;" class="icon-arrow-down"></i>
+      HOLD
+    </button>
+
+    <div class="container-players-1-2">
+
+      <div class="container-player1-left">
+        <h1 class="title-player-1">
+          PLAYER 1
+        </h1>
+        <p class="results-1">
+          43
+        </p>
+        <div class="text-place-1">
+          <h3 class="sub-title-1">
+            CURRENT
+            <span class="score-1">
+              <br>10
+            </span>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container-player2-right">
+        <h1 class="title-player-2">
+          PLAYER 2
+        </h1>
+        <p class="results-2">
+          72
+        </p>
+        <div class="text-place-2">
+          <h3 class="sub-title-2">
+            CURRENT
+            <span class="score-2">
+              <br>23
+            </span>
+          </h3>
+        </div>
+      </div>
+
+
+    </div>
+
+  </main>
   
+
+
   <script src="./index.js"></script>
 </body>
 </html>
