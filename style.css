@@ -103,7 +103,7 @@ body {
   transform: rotateY(-90deg) translateZ(100px);
 }
 
-@keyframes spin {
+/*@keyframes spin {
   0%{
     transform: rotateX(0deg) rotateY(0deg);
   }
@@ -111,7 +111,7 @@ body {
   100%{
     transform: rotateX(200deg) rotateY(200deg);
   }
-}
+}*/
 
 /************************* BUTTON ROLL DICE *****************/
 
