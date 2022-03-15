@@ -17,18 +17,52 @@
       NEW GAME
     </button>
 
-    <div class="container-dice">
-      <div class="cube">
-        <div class="face front"></div>
-        <div class="face back"></div>
-        <div class="face top"></div>
-        <div class="face bottom"></div>
-        <div class="face right"></div>
-        <div class="face left"></div>
+    <div class="container">
+      <div class="cube rolling">
+
+        <div class="face front">
+          <span class="dots dot1"></span>
+        </div>
+
+        <div class="face back">
+          <span class="dots dot1"></span>
+          <span class="dots dot2"></span>
+        </div>
+
+        <div class="face right">
+          <span class="dots dot1"></span>
+          <span class="dots dot2"></span>
+          <span class="dots dot3"></span>
+        </div>
+
+        <div class="face left">
+          <span class="dots dot1"></span>
+          <span class="dots dot2"></span>
+          <span class="dots dot3"></span>
+          <span class="dots dot4"></span>
+        </div>
+
+        <div class="face top">
+          <span class="dots dot1"></span>
+          <span class="dots dot2"></span>
+          <span class="dots dot3"></span>
+          <span class="dots dot4"></span>
+          <span class="dots dot5"></span>
+        </div>
+
+        <div class="face bottom">
+          <span class="dots dot1"></span>
+          <span class="dots dot2"></span>
+          <span class="dots dot3"></span>
+          <span class="dots dot4"></span>
+          <span class="dots dot5"></span>
+          <span class="dots dot6"></span>
+        </div>
+
       </div>
     </div>
 
-    <button class="btn-roll-dice">
+    <button class="btn-roll-dice rollBtn rolling">
       <i class="fa-solid fa-arrow-rotate-right" style="color: red; position: relative; right: 3px;" class="icon-arrow-turn"></i>
       ROLL DICE
     </button>
@@ -40,35 +74,35 @@
 
     <div class="container-players-1-2">
 
-      <div class="container-player1-left">
-        <h1 class="title-player-1">
+      <div class="container-player1-left player-0-panel active">
+        <h1 class="title-player-1 player-name" id="name-0">
           PLAYER 1
         </h1>
-        <p class="results-1">
-          43
+        <p class="results-1 player-score" id="score-0">
+          0
         </p>
         <div class="text-place-1">
           <h3 class="sub-title-1">
             CURRENT
-            <span class="score-1">
-              <br>10
+            <span class="score-1" id="current-0">
+              <br>0
             </span>
           </h3>
         </div>
       </div>
 
-      <div class="container-player2-right">
-        <h1 class="title-player-2">
+      <div class="container-player2-right player-1-panel">
+        <h1 class="title-player-2 player-name" id="name-1">
           PLAYER 2
         </h1>
-        <p class="results-2">
-          72
+        <p class="results-2 player-score" id="score-1"> 
+          0
         </p>
         <div class="text-place-2">
           <h3 class="sub-title-2">
             CURRENT
-            <span class="score-2">
-              <br>23
+            <span class="score-2" id="current-1">
+              <br>0
             </span>
           </h3>
         </div>
